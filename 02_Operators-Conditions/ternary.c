@@ -1,12 +1,16 @@
 #include <stdio.h>
     int main(){
 
-        int n;
-        printf("enter a number : ");
-        scanf("%d",& n);
+            int sp,cp;
+            printf(" enter selling price  : ");
+            scanf("%d",& sp);
+            printf("enter cost price : ");
+            scanf("%d",& cp);
 
-        n % 2 == 0 ? printf("even number "):printf("odd number ");
+            sp>cp?printf("profit"):printf("loss");
+           
 
+            
 
 
         return 0;
