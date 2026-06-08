@@ -9,7 +9,7 @@ void add(int *a,int *b){
 int main(){
 
     int x;
-    printf("Enter 1st num:  ");
+    printf("Enter 1st num: ");
     scanf("%d", &x);
 
     int y;
