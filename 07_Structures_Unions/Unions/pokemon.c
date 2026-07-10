@@ -25,5 +25,4 @@ int main(){
     printf("%s    ",pikachu.name);
 
     return 0;
-
 }
