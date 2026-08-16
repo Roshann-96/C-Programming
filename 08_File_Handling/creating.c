@@ -4,4 +4,3 @@
         FILE * ptr = fopen(" PW .txt","w");
         return 0;
     }
-
